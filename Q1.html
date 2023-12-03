@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatted HTML Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            font-style: italic;
+            text-decoration: underline;
+            font-size: 18px;
+
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        u {
+            text-decoration: underline;
+        }
+
+        span {
+            color: red;
+            font-family: 'Courier New', monospace;
+        }
+
+        .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>This is a Heading</h1>
+    <br>
+    <p>This is a paragraph with <strong>bold</strong>, <em>italic</em>, and <u>underline</u> text.
+        <span>Colored text</span> and <span style="font-size: 30px;">larger font size</span>.
+    </p>
+    <br>
+    <hr>
+    <br>
+
+    <p class="blink">This text is blinking!</p>
+
+    <marquee>This is a marquee text</marquee>
+
+</body>
+
+</html>

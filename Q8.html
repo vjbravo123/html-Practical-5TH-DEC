@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex: 1;
+        }
+
+        #left-column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        #right-column {
+            background-color: #444;
+            color: white;
+            width: 200px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+
+ 
+
+    <main>
+        <div id="left-column">
+          
+            <h1>Curriculum Vitae</h1>
+            <p>Welcome to my CV!</p>
+        </div>
+
+        <div id="right-column">
+            <nav>
+                <a href="#" onclick="showPersonalData()">Personal Data</a>
+                <a href="#" onclick="showEducation()">Education</a>
+                <a href="#" onclick="showProfessionalExperience()">Professional Experience</a>
+            </nav>
+        </div>
+    </main>
+
+    <script>
+        function showPersonalData() {
+            document.getElementById('left-column').innerHTML = `
+                <h2>Personal Data</h2>
+                <p>Name: Azamat</p>
+                <p>Surname: Azamat</p>
+                <p>Date of Birth: 30.07.70</p>
+                <p>Place of Birth: Bishkek, Kyrgyzstan</p>
+            `;
+        }
+
+        function showEducation() {
+            document.getElementById('left-column').innerHTML = `
+                <h2>Education</h2>
+                <h3>University of XYZ</h3>
+                <p>Degree: Bachelor of Science in Computer Science</p>
+                <p>Year: 2000 - 2004</p>
+            `;
+        }
+
+        function showProfessionalExperience() {
+            document.getElementById('left-column').innerHTML = `
+                <h2>Professional Experience</h2>
+                <h3>ABC Corporation</h3>
+                <p>Position: Software Engineer</p>
+                <p>Year: 2004 - Present</p>
+                <p>Responsibilities: Developing and maintaining software applications.</p>
+            `;
+        }
+    </script>
+
+</body>
+</html>

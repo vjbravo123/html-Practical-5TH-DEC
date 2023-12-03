@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ News Magazine Subscription</title>
+    <style>
+        
+        input[type="radio"] {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Subscribe to XYZ News Magazine and Emails</h2>
+    <p>Interested in receiving daily small updates of all latest News? Well, now you can. And best of all, it is free!
+        Just fill out this form and submit it by clicking the "Send it In" button. We will put you on our mailing list,
+        and you will receive your first email in 3-5 days.</p>
+
+    <form action="#" method="post">
+
+        
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <br>
+
+        <label for="business">Business:</label>
+        <input type="text" id="business" name="business">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <label>How did you hear about XYZ News Magazine and Emails?</label>
+        <br>
+        <input type="radio" id="web" name="howHeard" value="web">
+        <label for="web">Here on the Web</label>
+        
+        <input type="radio" id="magazine" name="howHeard" value="magazine">
+        <label for="magazine">In a magazine</label>
+        
+        <input type="radio" id="television" name="howHeard" value="television">
+        <label for="television">Television</label>
+        
+        <input type="radio" id="other" name="howHeard" value="other">
+        <label for="other">Other</label>
+      
+
+        <p>Would you like to be on our regular mailing list?</p>
+        
+   
+        <input type="checkbox" id="mailingList" name="mailingList" value="yes">
+        <label for="mailingList">(Yes, we love junk emails)</label>
+        <br>
+
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Send it In!">
+
+    </form>
+
+</body>
+</html>

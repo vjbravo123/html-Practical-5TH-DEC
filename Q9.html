@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme with 2-Tier Menus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #111;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding-left: 450px        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-right: 20px;
+            position: relative;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+
+        nav ul ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #333;
+            box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        nav ul li:hover > ul {
+            display: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dark Theme with 2-Tier Menus</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li>
+                <a href="#">PRODUCTS</a>
+                <ul>
+                    <li><a href="#">Product 1</a></li>
+                    <li><a href="#">Galleries</a></li>
+                    <li><a href="#">Magneto</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">COMPANY</a>
+                <ul>
+                    <li><a href="#">MircroSoft</a></li>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Amzon</a></li>
+                </ul>
+            </li>
+            <li><a href="#">CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Main Content Goes Here</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita pariatur modi esse alias sed nostrum eum perferendis voluptas, maxime provident beatae tempora saepe temporibus perspiciatis voluptatum explicabo necessitatibus consectetur? Doloribus dignissimos, adipisci ducimus soluta distinctio cumque dolorem repellat? Quam debitis ea, obcaecati facere mollitia ab, laborum aut labore quidem repellendus consequatur modi! Reprehenderit ab architecto praesentium cum deserunt sint eveniet voluptatum animi similique quas tempore dicta ex, totam ipsam dolores, facere aspernatur neque voluptatibus ullam modi. Officia quam vero ducimus tempora, libero aperiam enim modi est officiis dignissimos doloremque quia neque placeat deserunt quasi alias ut pariatur exercitationem nisi eius, at soluta? Animi maxime dolore quas provident incidunt laborum veritatis odio maiores ex aliquid rem quod doloribus modi, mollitia non officiis consequuntur ipsa cupiditate sit perspiciatis fugit magni! Voluptates, ea consequatur distinctio saepe corporis, nostrum adipisci praesentium molestiae libero porro sit. Unde itaque quo voluptatum ipsam iure amet ex! Fugit itaque obcaecati repudiandae beatae perferendis, molestias debitis repellat in ex natus placeat dolor, assumenda dolores eos sint delectus minus alias! Consequatur eligendi laboriosam numquam a necessitatibus totam vero reprehenderit error. Beatae odio exercitationem illum similique officia iure totam doloribus ducimus quidem dolor nulla suscipit pariatur alias nam mollitia nemo tempore possimus, porro, dolorum architecto dolores! Omnis deleniti incidunt aperiam autem excepturi, fugit eos, iste rerum magnam beatae dolor itaque reprehenderit commodi voluptates, eaque ex voluptatem. Natus optio doloremque suscipit nihil sunt illum voluptates sapiente repellat quaerat rem! Hic quis harum expedita eius accusamus? Quam necessitatibus commodi corrupti blanditiis impedit odio natus molestias consequatur, aliquam ipsam sunt! Eveniet doloribus consequuntur impedit repudiandae beatae possimus, quia, similique sed reiciendis sunt eos voluptate dolorem quis temporibus atque maxime! Tenetur praesentium optio aut, possimus explicabo modi a odio ducimus cum amet fugiat, sed autem esse voluptatum accusantium est voluptas repellendus? Provident culpa dolorem ipsum eum esse facilis deserunt sint repellendus assumenda quisquam iure modi possimus soluta odio ratione quis voluptatum laboriosam quaerat reiciendis, dolore ex facere enim quos velit. Corrupti nesciunt rem magni numquam natus assumenda quos.</p>
+    </section>
+    <section>
+        <h2>Main Content Goes Here</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita pariatur modi esse alias sed nostrum eum perferendis voluptas, maxime provident beatae tempora saepe temporibus perspiciatis voluptatum explicabo necessitatibus consectetur? Doloribus dignissimos, adipisci ducimus soluta distinctio cumque dolorem repellat? Quam debitis ea, obcaecati facere mollitia ab, laborum aut labore quidem repellendus consequatur modi! Reprehenderit ab architecto praesentium cum deserunt sint eveniet voluptatum animi similique quas tempore dicta ex, totam ipsam dolores, facere aspernatur neque voluptatibus ullam modi. Officia quam vero ducimus tempora, libero aperiam enim modi est officiis dignissimos doloremque quia neque placeat deserunt quasi alias ut pariatur exercitationem nisi eius, at soluta? Animi maxime dolore quas provident incidunt laborum veritatis odio maiores ex aliquid rem quod doloribus modi, mollitia non officiis consequuntur ipsa cupiditate sit perspiciatis fugit magni! Voluptates, ea consequatur distinctio saepe corporis, nostrum adipisci praesentium molestiae libero porro sit. Unde itaque quo voluptatum ipsam iure amet ex! Fugit itaque obcaecati repudiandae beatae perferendis, molestias debitis repellat in ex natus placeat dolor, assumenda dolores eos sint delectus minus alias! Consequatur eligendi laboriosam numquam a necessitatibus totam vero reprehenderit error. Beatae odio exercitationem illum similique officia iure totam doloribus ducimus quidem dolor nulla suscipit pariatur alias nam mollitia nemo tempore possimus, porro, dolorum architecto dolores! Omnis deleniti incidunt aperiam autem excepturi, fugit eos, iste rerum magnam beatae dolor itaque reprehenderit commodi voluptates, eaque ex voluptatem. Natus optio doloremque suscipit nihil sunt illum voluptates sapiente repellat quaerat rem! Hic quis harum expedita eius accusamus? Quam necessitatibus commodi corrupti blanditiis impedit odio natus molestias consequatur, aliquam ipsam sunt! Eveniet doloribus consequuntur impedit repudiandae beatae possimus, quia, similique sed reiciendis sunt eos voluptate dolorem quis temporibus atque maxime! Tenetur praesentium optio aut, possimus explicabo modi a odio ducimus cum amet fugiat, sed autem esse voluptatum accusantium est voluptas repellendus? Provident culpa dolorem ipsum eum esse facilis deserunt sint repellendus assumenda quisquam iure modi possimus soluta odio ratione quis voluptatum laboriosam quaerat reiciendis, dolore ex facere enim quos velit. Corrupti nesciunt rem magni numquam natus assumenda quos.</p>
+    </section>
+
+</body>
+</html>
